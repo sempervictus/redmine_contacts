@@ -18,7 +18,7 @@
 # along with redmine_contacts.  If not, see <http://www.gnu.org/licenses/>.
 
 class CreateTags < ActiveRecord::Migration
-  require 'redmine_crm/rcrm_acts_as_taggable'
+  require 'redmine_crm/acts_as_taggable/rcrm_acts_as_taggable'
 
   def self.up
     # unless table_exists?(:viewings)
